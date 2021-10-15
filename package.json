@@ -1,0 +1,27 @@
+{
+  "name": "pwa-myway-track-budgets",
+  "version": "1.0.0",
+  "description": "challenge-19",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
+  },
+  "author": "Diana Salas",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalasD93/pwa-myway-track-budgets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SalasD93/pwa-myway-track-budgets/issues"
+  },
+  "homepage": "https://github.com/SalasD93/pwa-myway-track-budgets#readme"
+}
