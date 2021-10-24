@@ -41,7 +41,7 @@ function uploadBudget() {
 
     getAll.onsuccess = function() {
         // if indexedDB data, send to api server
-        if (getAll.result.legth > 0) {
+        if (getAll.result.length > 0) {
             fetch('/api/transaction', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
