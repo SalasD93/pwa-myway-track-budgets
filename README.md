@@ -3,7 +3,7 @@
 
 ## Description
 
-For challenge 19 of the UM Coding Bootcamp, I had to use MongoDB (NoSQL), Express.js, IndexedDB, Service Workers, and a Web Manifest to create a Progressive Web Application (PWA) Budget Tracker. This application is deployed on Heroku through GitHub and MongoDB Atlas.
+I used MongoDB (NoSQL), Express.js, IndexedDB, Service Workers, and a Web Manifest to create a Progressive Web Application (PWA) Budget Tracker. This application is deployed on Heroku through GitHub and MongoDB Atlas. The PWA allows users to utilize the budget tracket during offline use. It stores their inputs in the IndexedDB. When their browser goes back online, the data stored in the IndexedDB is automatically sent to the backend through a fetch call. This presents loss of data, and allows users to track their budgets frustation free.
 
 
 ## Table of Contents
